@@ -1,0 +1,74 @@
+[
+  {
+    "vehicle_id": "toyota_corolla",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": "2025",
+    "manual_title": "Toyota Corolla Owner's Manual",
+    "file": "Toyota_Corolla.pdf",
+    "source_url": "https://www.toyotamanuals.org/2025-toyota-corolla/"
+  },
+  {
+    "vehicle_id": "toyota_rav4",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": "2025",
+    "manual_title": "Toyota RAV4 Owner's Manual",
+    "file": "Toyota_RAV4.pdf",
+    "source_url": "https://www.toyotamanuals.org/2025-toyota-rav4/"
+  },
+  {
+    "vehicle_id": "mazda_3",
+    "make": "Mazda",
+    "model": "3",
+    "year": "2019",
+    "manual_title": "Mazda 3 Owner's Manual",
+    "file": "Mazda_3.pdf",
+    "source_url": "https://owners-manual.mazda.com/gen/en/mazda3/mazda3_8hs5ee19i/visual.html"
+  },
+  {
+    "vehicle_id": "mazda_cx5",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": "2025",
+    "manual_title": "Mazda CX-5 Owner's Manual",
+    "file": "Mazda_CX5.pdf",
+    "source_url": "https://owners-manual.mazda.com/gen/en/cx-5/cx-5_8ft1ee17b/visual.html"
+  },
+  {
+    "vehicle_id": "hyundai_i30",
+    "make": "Hyundai",
+    "model": "i30",
+    "year": "2017",
+    "manual_title": "Hyundai i30 Owner's Manual",
+    "file": "Hyundai_i30.pdf",
+    "source_url": "https://www.hyundai.com/uk/en/owners/owning-a-hyundai/owners-manuals.html"
+  },
+  {
+    "vehicle_id": "hyundai_tucson",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": "2024",
+    "manual_title": "Hyundai Tucson Owner's Manual",
+    "file": "Hyundai_Tucson.pdf",
+    "source_url": "https://www.hyundai.com/uk/en/owners/owning-a-hyundai/owners-manuals.html"
+  },
+  {
+    "vehicle_id": "kia_cerato",
+    "make": "Kia",
+    "model": "Cerato",
+    "year": "2024",
+    "manual_title": "Kia Cerato Owner's Manual",
+    "file": "Kia_Cerato.pdf",
+    "source_url": "https://www.kia.com/au/owners/manual.html"
+  },
+  {
+    "vehicle_id": "kia_sportage",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": "2025",
+    "manual_title": "Kia Sportage Owner's Manual",
+    "file": "Kia_Sportage.pdf",
+    "source_url": "https://www.kia.com/au/owners/manual.html"
+  }
+]

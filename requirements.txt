@@ -1,0 +1,5 @@
+chromadb
+pypdf
+requests
+sentence-transformers
+fonttools
