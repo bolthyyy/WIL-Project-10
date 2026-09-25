@@ -1,0 +1,4 @@
+question_id,question,distinct_vehicles_top5,vehicles_in_top5,top1_score
+Q17,What does the tyre pressure warning light mean?,3,hyundai_i30;kia_cerato;kia_sportage,22.6337
+Q18,How do I jump-start the car?,4,hyundai_i30;hyundai_tucson;mazda_3;mazda_cx5,14.9426
+Q19,What fuel type should I use?,4,hyundai_i30;kia_cerato;kia_sportage;mazda_cx5,12.913

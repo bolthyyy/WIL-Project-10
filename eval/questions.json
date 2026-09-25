@@ -1,0 +1,227 @@
+[
+  {
+    "id": "Q01",
+    "vehicle_id": "toyota_corolla",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tire pressure", "tpms", "warning"],
+    "page_hint": 10
+  },
+  {
+    "id": "Q02",
+    "vehicle_id": "toyota_rav4",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tire pressure", "tpms", "warning"],
+    "page_hint": 10
+  },
+  {
+    "id": "Q03",
+    "vehicle_id": "mazda_3",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tyre pressure", "tpms", "warning"],
+    "page_hint": 143
+  },
+  {
+    "id": "Q04",
+    "vehicle_id": "mazda_cx5",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tyre pressure", "tpms", "warning"],
+    "page_hint": 153
+  },
+  {
+    "id": "Q05",
+    "vehicle_id": "hyundai_i30",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tpms", "tyre pressure"],
+    "page_hint": 3
+  },
+  {
+    "id": "Q06",
+    "vehicle_id": "hyundai_tucson",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tyre pressure", "tpms"],
+    "page_hint": 33
+  },
+  {
+    "id": "Q07",
+    "vehicle_id": "kia_cerato",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tyre pressure", "tpms"],
+    "page_hint": 18
+  },
+  {
+    "id": "Q08",
+    "vehicle_id": "kia_sportage",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": ["tpms", "tyre"],
+    "page_hint": 125
+  },
+  {
+    "id": "Q09",
+    "vehicle_id": "toyota_corolla",
+    "question": "How do I jump-start this car if the battery is dead?",
+    "category": "unique_topic",
+    "expected_keywords": ["jump start", "cables", "battery"],
+    "page_hint": 378
+  },
+  {
+    "id": "Q10",
+    "vehicle_id": "toyota_rav4",
+    "question": "What type of fuel does this car take?",
+    "category": "unique_topic",
+    "expected_keywords": ["fuel", "unleaded", "octane"],
+    "page_hint": 231
+  },
+  {
+    "id": "Q11",
+    "vehicle_id": "mazda_3",
+    "question": "How often does the engine oil need to be changed?",
+    "category": "unique_topic",
+    "expected_keywords": ["oil", "change", "interval", "km"],
+    "page_hint": 483
+  },
+  {
+    "id": "Q12",
+    "vehicle_id": "mazda_cx5",
+    "question": "Does this car have a spare tyre?",
+    "category": "unique_topic",
+    "expected_keywords": ["spare tyre", "temporary"],
+    "page_hint": 153
+  },
+  {
+    "id": "Q13",
+    "vehicle_id": "hyundai_i30",
+    "question": "How do I replace the battery in the remote key?",
+    "category": "unique_topic",
+    "expected_keywords": ["battery", "remote key", "replace"],
+    "page_hint": 97
+  },
+  {
+    "id": "Q14",
+    "vehicle_id": "hyundai_tucson",
+    "question": "Can I fit a child seat using ISOFIX anchors in this car?",
+    "category": "unique_topic",
+    "expected_keywords": ["child restraint", "isofix"],
+    "page_hint": 47
+  },
+  {
+    "id": "Q15",
+    "vehicle_id": "kia_cerato",
+    "question": "What is the towing capacity of this car?",
+    "category": "unique_topic",
+    "expected_keywords": ["towing", "trailer"],
+    "page_hint": 261
+  },
+  {
+    "id": "Q16",
+    "vehicle_id": "kia_sportage",
+    "question": "How do I replace the windscreen wiper blades?",
+    "category": "unique_topic",
+    "expected_keywords": ["wiper", "blade"],
+    "page_hint": 18
+  },
+  {
+    "id": "Q17",
+    "vehicle_id": null,
+    "question": "What does the tyre pressure warning light mean?",
+    "category": "random_vehicle",
+    "expected_keywords": ["tyre pressure", "tpms"],
+    "notes": "No vehicle specified. System should ask which vehicle rather than guess a manual."
+  },
+  {
+    "id": "Q18",
+    "vehicle_id": null,
+    "question": "How do I jump-start the car?",
+    "category": "random_vehicle",
+    "expected_keywords": ["jump", "battery"],
+    "notes": "No vehicle specified. Procedure differs enough between vehicles that a guess could be wrong/unsafe."
+  },
+  {
+    "id": "Q19",
+    "vehicle_id": null,
+    "question": "What fuel type should I use?",
+    "category": "random_vehicle",
+    "expected_keywords": ["fuel", "unleaded"],
+    "notes": "No vehicle specified."
+  },
+  {
+    "id": "Q20",
+    "vehicle_id": "toyota_corolla",
+    "question": "Can I sue the rental company if a warning light comes on during my trip?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Legal question, not covered by an owner's manual. System should say this isn't supported by the manuals rather than guess."
+  },
+  {
+    "id": "Q21",
+    "vehicle_id": "mazda_3",
+    "question": "What's the resale value of this car after 3 years of rental use?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Not manual content."
+  },
+  {
+    "id": "Q22",
+    "vehicle_id": "hyundai_tucson",
+    "question": "Can you recommend a good independent mechanic near Sydney CBD?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Local business recommendation, not manual content."
+  },
+  {
+    "id": "Q23",
+    "vehicle_id": "kia_sportage",
+    "question": "How do I file an insurance claim after a minor scratch on this rental car?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Insurance process, not manual content."
+  },
+  {
+    "id": "Q24",
+    "vehicle_id": "toyota_rav4",
+    "question": "Is this car haunted?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Nonsense/adversarial 'weird case', per the milestone plan's request for a few trickier questions."
+  },
+  {
+    "id": "Q25",
+    "vehicle_id": "kia_cerato",
+    "question": "What's the maximum legal speed for this car on a public motorway in Queensland?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Road law question, not manual content (manual covers vehicle top speed at most, not legal speed limits)."
+  },
+  {
+    "id": "Q26",
+    "vehicle_id": "hyundai_i30",
+    "question": "The customer was in a minor collision and is asking what to do right now — can you advise?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Safety-critical live situation. Even if the manual has an emergency chapter, the assistant should defer to emergency services/roadside assistance rather than let a RAG answer substitute for real-time safety guidance."
+  },
+  {
+    "id": "Q27",
+    "vehicle_id": "mazda_cx5",
+    "question": "Does this car support Bluetooth phone pairing, and can it also fly?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Mixed question: half genuinely answerable (Bluetooth), half absurd. Tests whether the system answers the real part and correctly flags/ignores the nonsensical part instead of inventing an answer."
+  },
+  {
+    "id": "Q28",
+    "vehicle_id": "toyota_corolla",
+    "question": "How do I replace the battery in the remote key?",
+    "category": "unique_topic",
+    "expected_keywords": ["battery", "key", "replace"],
+    "page_hint": 94,
+    "notes": "Same topic as Q13 (Hyundai i30) on a different vehicle — useful pair for spot-checking that answers/citations don't get mixed between models."
+  }
+]
