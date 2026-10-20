@@ -1,0 +1,595 @@
+experiment,condition,text_source,embedder,chunk,top_k,filtered,rerank,question_id,type,vehicle_id,jack_question,gold_pages,hit,mrr,first_hit_rank,top1_correct_manual,wrong_manual_share,top1_vehicle,top1_page,top1_score,latency_ms
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,61.7
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,67.2
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,56.4
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,56.2
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,58.2
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,80.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,70.0
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,56.3
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,40.6
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,28.3
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,33.4
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,23.0
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,38.6
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,39.8
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,28.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,27.6
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,34.2
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,34.4
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,38.3
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,34.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,32.2
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,35.8
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,37.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,36.6
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,36.1
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,56.0
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,45.7
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,46.0
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,61.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,63.5
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,74.6
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,42.9
+vehicle_filtering,filtered,pymupdf,bm25,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,73.6
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q01,direct,toyota_corolla,1,358;359,0,0.0,,0,1.0,hyundai_i30,505,35.1684,98.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q02,direct,toyota_rav4,1,456;457,0,0.0,,0,1.0,hyundai_i30,505,35.1684,64.4
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q03,direct,mazda_3,1,611;612;405,0,0.0,,0,1.0,hyundai_i30,505,35.1684,52.7
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q04,direct,mazda_cx5,1,739;732;409,0,0.0,,0,1.0,hyundai_i30,505,35.1684,60.1
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.3333,3,1,0.4,hyundai_i30,505,35.1684,52.3
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q06,direct,hyundai_tucson,1,523;522;524,1,0.2,5,0,0.8,hyundai_i30,505,35.1684,70.8
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q07,direct,kia_cerato,1,462;463;464,1,0.5,2,0,0.8,hyundai_i30,505,35.1684,65.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q08,direct,kia_sportage,1,438;437;439,0,0.0,,0,1.0,hyundai_i30,505,35.1684,67.4
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,0,1.0,mazda_3,587,23.7724,56.1
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q10,direct,toyota_rav4,1,496;231;507,0,0.0,,0,1.0,kia_sportage,111,15.3933,48.8
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,0,1.0,kia_sportage,479,23.8476,60.7
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q12,direct,mazda_cx5,1,694;696;698,1,0.5,2,0,0.8,mazda_3,572,15.8688,42.2
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.8,hyundai_i30,97,26.5397,54.7
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.8,hyundai_tucson,83,35.8639,69.0
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q15,direct,kia_cerato,1,329,0,0.0,,0,0.8,toyota_corolla,140,24.4766,49.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,0,1.0,mazda_3,511,25.1367,49.4
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,0,0.8,hyundai_i30,97,26.5397,57.7
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q29,direct,toyota_corolla,0,391,0,0.0,,0,1.0,kia_cerato,463,28.3829,56.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,0,1.0,kia_cerato,463,28.3829,63.6
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q31,direct,mazda_3,0,707;697,0,0.0,,0,1.0,kia_cerato,463,28.3829,58.6
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,0,1.0,kia_cerato,463,28.3829,63.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q33,direct,hyundai_i30,0,634;566,0,0.0,,0,0.8,kia_cerato,463,28.3829,54.4
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q34,direct,hyundai_tucson,0,33;586;530,0,0.0,,0,0.8,kia_cerato,463,28.3829,56.3
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q35,direct,kia_cerato,0,596;531,0,0.0,,1,0.6,kia_cerato,463,28.3829,59.1
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,0,0.8,kia_cerato,463,28.3829,58.0
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q37,paraphrased,toyota_corolla,0,378;379;380,0,0.0,,0,1.0,kia_cerato,459,30.0523,81.7
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,0,1.0,hyundai_tucson,10,25.4895,63.5
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q39,paraphrased,mazda_3,0,481;483;490,1,0.3333,3,0,0.6,mazda_cx5,622,23.1183,67.8
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q40,paraphrased,mazda_cx5,0,694;696;698,0,0.0,,0,1.0,toyota_corolla,364,42.491,66.9
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,0,0.6,mazda_3,612,19.5908,51.6
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,0,0.0,,0,1.0,mazda_cx5,53,29.2485,64.2
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q43,paraphrased,kia_cerato,0,329,1,0.3333,3,0,0.8,kia_sportage,273,20.3057,33.3
+vehicle_filtering,unfiltered,pymupdf,bm25,220/40,5,0,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,0,0.8,hyundai_i30,558,26.3769,59.0
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,62.4
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,63.3
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q03,direct,mazda_3,1,611;612;405,0,0.0,,1,0.0,mazda_3,521,23.7636,64.1
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q04,direct,mazda_cx5,1,739;732;409,0,0.0,,1,0.0,mazda_cx5,649,23.2525,55.9
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q05,direct,hyundai_i30,1,502;503;162,0,0.0,,1,0.0,hyundai_i30,505,35.1684,50.7
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,47.3
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,41.9
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,45.1
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,1,0.0,toyota_corolla,435,18.8622,42.5
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,35.7
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,42.9
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,28.6
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,48.4
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,50.4
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,37.1
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,1,0.0,kia_sportage,146,18.5678,43.3
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,1,0.0,toyota_corolla,94,24.7944,48.2
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,46.5
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,54.8
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,61.0
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,50.8
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q33,direct,hyundai_i30,0,634;566,0,0.0,,1,0.0,hyundai_i30,505,28.0114,42.5
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q34,direct,hyundai_tucson,0,33;586;530,0,0.0,,1,0.0,hyundai_tucson,523,28.2531,46.0
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q35,direct,kia_cerato,0,596;531,0,0.0,,1,0.0,kia_cerato,463,28.3829,52.9
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,1,0.0,kia_sportage,440,27.9449,58.2
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,66.5
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,51.7
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,68.2
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,0,0.0,,1,0.0,mazda_cx5,706,37.048,72.1
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,43.5
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,0,0.0,,1,0.0,hyundai_tucson,71,23.2534,66.3
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,28.0
+top_k,k=1,pymupdf,bm25,220/40,1,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,44.2
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,60.0
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,59.9
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q03,direct,mazda_3,1,611;612;405,0,0.0,,1,0.0,mazda_3,521,23.7636,61.6
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,92.0
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,71.6
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,70.5
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,57.3
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,55.2
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,1,0.0,toyota_corolla,435,18.8622,48.3
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,29.4
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,35.2
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,26.8
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,65.6
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,58.7
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,42.3
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,1,0.0,kia_sportage,146,18.5678,50.9
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,1,0.0,toyota_corolla,94,24.7944,63.8
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,67.1
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,59.1
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,39.7
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,34.0
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,43.1
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,55.4
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,48.8
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,1,0.0,kia_sportage,440,27.9449,44.2
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,83.8
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,68.8
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,66.3
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,79.2
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,52.3
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,66.9
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,33.5
+top_k,k=3,pymupdf,bm25,220/40,3,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,66.2
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,72.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,70.0
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,84.2
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,73.8
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,62.2
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,49.1
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,56.7
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,42.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,48.9
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,39.1
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,46.9
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,33.9
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,47.6
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,58.5
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,40.0
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,36.8
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,47.7
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,60.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,51.2
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,53.3
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,57.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,54.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,47.8
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,50.0
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,46.5
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,69.2
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,48.3
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,66.5
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,74.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,48.4
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,61.3
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,31.7
+top_k,k=5,pymupdf,bm25,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,61.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,47.0
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,44.7
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,49.6
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,58.3
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,68.1
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,64.9
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,64.8
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,83.0
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,72.9
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,59.8
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,60.2
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,41.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,57.3
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,64.8
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q15,direct,kia_cerato,1,329,1,0.1429,7,1,0.0,kia_cerato,322,22.048,58.7
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,37.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,58.9
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,50.2
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,43.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,46.7
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,51.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,60.6
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,51.7
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,54.5
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,47.8
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,81.1
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,47.4
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,48.6
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,79.8
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q41,paraphrased,hyundai_i30,0,97;102,1,0.1667,6,1,0.0,hyundai_i30,1,15.4186,61.6
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,85.5
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,38.1
+top_k,k=8,pymupdf,bm25,220/40,8,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,63.9
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,20.0631,96.7
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,0.5,2,1,0.0,toyota_rav4,80,19.7901,108.1
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,1.0,1,1,0.0,mazda_3,405,22.411,122.6
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,408,23.7748,112.0
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,1.0,1,1,0.0,hyundai_i30,503,32.334,104.4
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,29.2944,89.3
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,37.3175,98.0
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,31.3109,115.1
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.5,2,1,0.0,toyota_corolla,9,14.731,88.4
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,11.9273,63.8
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,503,17.0594,78.5
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7085,59.9
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,0.5,2,1,0.0,hyundai_i30,139,24.995,84.2
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,32.9559,91.0
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,21.6643,66.7
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,1,0.0,kia_sportage,146,19.5197,65.1
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.3333,3,1,0.0,toyota_corolla,94,22.5178,80.8
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,21.3446,92.9
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,20.4432,91.4
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,403,26.2472,82.7
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,409,24.4828,83.4
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.25,4,1,0.0,hyundai_i30,505,29.1387,80.5
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.5,2,1,0.0,hyundai_tucson,523,28.0497,66.5
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,464,26.9132,54.1
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.25,4,1,0.0,kia_sportage,440,30.3167,72.7
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,380,22.0831,110.9
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,17.2153,94.0
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,0,0.0,,1,0.0,mazda_3,506,20.424,144.9
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,1.0,1,1,0.0,mazda_cx5,698,35.187,126.7
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,16.1588,99.2
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.25,4,1,0.0,hyundai_tucson,71,22.4684,128.8
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,21.207,65.8
+chunking,120/20 words,pymupdf,bm25,120/20,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.4433,88.9
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,40.4
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,47.0
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,56.3
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,51.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,44.4
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,54.3
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,51.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,57.7
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,55.1
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,41.6
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,48.7
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,25.2
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,32.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,37.1
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,28.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,28.9
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,35.1
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,51.3
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,46.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,49.0
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,63.1
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,51.2
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,43.6
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,49.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,47.8
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,71.4
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,109.2
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,85.0
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,80.6
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,47.5
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,51.4
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,38.4
+chunking,220/40 words,pymupdf,bm25,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,57.6
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,359,17.5144,49.3
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,456,18.1585,45.2
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.25,4,1,0.0,mazda_3,521,23.0847,43.2
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,22.8905,54.1
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,32.7216,37.3
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,27.8467,45.1
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,31.7028,47.4
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,31.557,57.4
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,1,0.0,toyota_corolla,282,17.3054,67.6
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,11.7959,41.8
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.3016,49.7
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7571,31.0
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.3863,51.3
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,36.5325,36.8
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,23.067,29.9
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.0249,24.5
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.3333,3,1,0.0,toyota_corolla,94,25.1911,49.7
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,323,20.5357,48.8
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,20.8961,40.5
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,28.875,33.9
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,28.6468,27.7
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,504,30.3283,28.5
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.0,hyundai_tucson,586,28.0236,35.8
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.25,4,1,0.0,kia_cerato,462,29.1573,34.2
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.5,2,1,0.0,kia_sportage,440,28.7157,33.8
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,21.6334,56.1
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.0787,37.1
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.6231,49.3
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.287,44.6
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,14.8865,41.4
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,25.0846,73.0
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,19.2864,31.9
+chunking,350/60 words,pymupdf,bm25,350/60,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,25.7247,49.2
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,63.1
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,60.0
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,60.7
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,62.5
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,64.5
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,60.0
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,73.2
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,67.9
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,47.4
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,36.0
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,69.8
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,38.4
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,56.0
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,55.6
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,29.9
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,30.8
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,54.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,106.4
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,81.2
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,60.1
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,56.5
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,41.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,45.9
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,57.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,65.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,142.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,80.4
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,63.4
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,64.1
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,52.9
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,79.0
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,33.3
+search_method,bm25,pymupdf,bm25,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,76.1
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,0.7086,13.6
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,0.5,2,1,0.0,toyota_rav4,408,0.6909,16.2
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,1.0,1,1,0.0,mazda_3,611,0.7622,16.0
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,739,0.7284,17.6
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,1.0,1,1,0.0,hyundai_i30,162,0.7456,17.3
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,0.7308,16.4
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,462,0.7197,15.3
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,439,0.6488,16.3
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.5656,15.5
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.4292,15.4
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,1,0.5,2,1,0.0,mazda_3,505,0.5365,14.2
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,696,0.4825,13.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.6574,14.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5964,17.7
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q15,direct,kia_cerato,1,329,1,1.0,1,1,0.0,kia_cerato,328,0.5575,15.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.7526,16.1
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,1.0,1,1,0.0,toyota_corolla,329,0.6395,14.3
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,1,0.5,2,1,0.0,toyota_corolla,323,0.5956,14.0
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,1,0.3333,3,1,0.0,toyota_rav4,325,0.6159,14.8
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,1,1.0,1,1,0.0,mazda_3,708,0.6483,15.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,1,1.0,1,1,0.0,mazda_cx5,801,0.6546,17.1
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,1.0,1,1,0.0,hyundai_i30,567,0.7116,15.4
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.0,hyundai_tucson,586,0.8018,16.0
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,1.0,1,1,0.0,kia_cerato,531,0.733,15.7
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,1.0,1,1,0.0,kia_sportage,501,0.5908,15.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.4899,17.5
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.5257,15.9
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,490,0.5702,14.4
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,798,0.3495,16.7
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.4906,16.3
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5189,16.6
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,0.6142,16.2
+search_method,minilm,pymupdf,minilm,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.6253,15.3
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,0.7441,54.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,456,0.735,50.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,1.0,1,1,0.0,mazda_3,611,0.7311,54.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,739,0.7457,56.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,1.0,1,1,0.0,hyundai_i30,504,0.7114,53.8
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,0.769,55.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,463,0.7273,54.2
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,0.6685,42.7
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.5987,40.6
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.6223,43.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,1,0.3333,3,1,0.0,mazda_3,505,0.6612,57.1
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,695,0.4629,50.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.7501,52.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,0.6403,58.2
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q15,direct,kia_cerato,1,329,1,0.5,2,1,0.0,kia_cerato,322,0.5954,43.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.6756,45.3
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,1.0,1,1,0.0,toyota_corolla,328,0.6849,47.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,1,1.0,1,1,0.0,toyota_corolla,391,0.6235,47.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,1,0.5,2,1,0.0,toyota_rav4,513,0.5994,50.6
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,1,1.0,1,1,0.0,mazda_3,707,0.6546,55.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,1,0.3333,3,1,0.0,mazda_cx5,409,0.5395,52.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,1.0,1,1,0.0,hyundai_i30,567,0.7084,46.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.0,hyundai_tucson,586,0.7272,53.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,1.0,1,1,0.0,kia_cerato,532,0.6524,49.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,1.0,1,1,0.0,kia_sportage,560,0.5956,50.4
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,377,0.5773,66.6
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,1,1.0,1,1,0.0,toyota_rav4,507,0.596,59.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,0.25,4,1,0.0,mazda_3,495,0.6378,46.0
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,1.0,1,1,0.0,mazda_cx5,696,0.5172,51.2
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.656,53.6
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5287,55.5
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,0.5,2,1,0.0,kia_cerato,322,0.6354,52.6
+search_method,mpnet,pymupdf,mpnet,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.5975,55.7
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,51.0
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,46.0
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,1,0.0,mazda_3,521,23.7636,44.4
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.5,2,1,0.0,mazda_cx5,649,23.2525,45.9
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,42.7
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,28.9887,43.6
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,44.1
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,438,28.3036,43.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,0.25,4,1,0.0,toyota_corolla,435,18.8622,36.3
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,508,12.1333,27.7
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,33.4
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,20.1
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,28.7
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,32.8
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,322,22.048,24.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.25,4,1,0.0,kia_sportage,146,18.5678,23.1
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,0.25,4,1,0.0,toyota_corolla,94,24.7944,29.5
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,322,18.8976,35.8
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,34.8
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,521,25.5617,35.7
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,649,24.882,36.5
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,1,0.0,hyundai_i30,505,28.0114,36.5
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,523,28.2531,37.1
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,0.3333,3,1,0.0,kia_cerato,463,28.3829,37.1
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,0.2,5,1,0.0,kia_sportage,440,27.9449,37.5
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,379,22.0174,59.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,345,18.3784,32.6
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,481,21.5526,37.4
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,706,37.048,38.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,1,0.0,hyundai_i30,1,15.4186,41.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,0.3333,3,1,0.0,hyundai_tucson,71,23.2534,61.5
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,33.2
+reranking,off,pymupdf,bm25,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,147,26.1884,54.0
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,18.4397,321.9
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q02,direct,toyota_rav4,1,456;457,1,1.0,1,1,0.0,toyota_rav4,455,18.25,46.7
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q03,direct,mazda_3,1,611;612;405,1,0.5,2,1,0.0,mazda_3,607,23.7636,45.5
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,408,23.2525,52.7
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,1,0.0,hyundai_i30,505,35.1684,61.8
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q06,direct,hyundai_tucson,1,523;522;524,1,0.5,2,1,0.0,hyundai_tucson,123,28.9887,65.1
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,464,34.011,73.5
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q08,direct,kia_sportage,1,438;437;439,1,0.5,2,1,0.0,kia_sportage,138,28.3036,66.8
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q09,direct,toyota_corolla,1,378;379;380,1,0.5,2,1,0.0,toyota_corolla,282,18.8622,54.4
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q10,direct,toyota_rav4,1,496;231;507,1,0.5,2,1,0.0,toyota_rav4,378,12.1333,44.8
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q11,direct,mazda_3,1,481;483;490,0,0.0,,1,0.0,mazda_3,505,18.9084,52.1
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,697,14.7966,39.0
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,26.5397,50.0
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,83,35.8639,41.0
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,477,22.048,45.3
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q16,direct,kia_sportage,1,496;497,1,1.0,1,1,0.0,kia_sportage,498,18.5678,46.6
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,1,0.0,toyota_corolla,101,24.7944,54.1
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q29,direct,toyota_corolla,0,391,0,0.0,,1,0.0,toyota_corolla,399,18.8976,51.6
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q30,direct,toyota_rav4,0,501;503,0,0.0,,1,0.0,toyota_rav4,415,19.0117,37.5
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q31,direct,mazda_3,0,707;697,0,0.0,,1,0.0,mazda_3,403,25.5617,35.9
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q32,direct,mazda_cx5,0,801;793,0,0.0,,1,0.0,mazda_cx5,408,24.882,35.8
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q33,direct,hyundai_i30,0,634;566,1,0.5,2,1,0.0,hyundai_i30,504,28.0114,35.1
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q34,direct,hyundai_tucson,0,33;586;530,1,0.3333,3,1,0.0,hyundai_tucson,525,28.2531,35.8
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q35,direct,kia_cerato,0,596;531,1,1.0,1,1,0.0,kia_cerato,532,28.3829,35.5
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q36,direct,kia_sportage,0,560;501,1,0.25,4,1,0.0,kia_sportage,438,27.9449,43.6
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q37,paraphrased,toyota_corolla,0,378;379;380,1,0.5,2,1,0.0,toyota_corolla,364,22.0174,82.3
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,1,0.0,toyota_rav4,91,18.3784,59.7
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q39,paraphrased,mazda_3,0,481;483;490,0,0.0,,1,0.0,mazda_3,505,21.5526,56.3
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q40,paraphrased,mazda_cx5,0,694;696;698,1,1.0,1,1,0.0,mazda_cx5,694,37.048,72.4
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q41,paraphrased,hyundai_i30,0,97;102,1,0.5,2,1,0.0,hyundai_i30,1,15.4186,56.7
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q42,paraphrased,hyundai_tucson,0,83;84;81,0,0.0,,1,0.0,hyundai_tucson,67,23.2534,62.7
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,20.2388,30.2
+reranking,on,pymupdf,bm25,220/40,5,1,1,Q44,paraphrased,kia_sportage,0,496;497,1,0.25,4,1,0.0,kia_sportage,145,26.1884,44.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,0.7086,25.5
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,0.5,2,1,0.0,toyota_rav4,408,0.6909,23.5
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,1.0,1,1,0.0,mazda_3,611,0.7622,19.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,739,0.7284,20.4
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,1.0,1,1,0.0,hyundai_i30,162,0.7456,25.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,0.7308,25.4
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,1,1.0,1,1,0.0,kia_cerato,462,0.7197,23.7
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,1,1.0,1,1,0.0,kia_sportage,439,0.6488,22.7
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.5656,21.8
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.4292,21.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,1,0.5,2,1,0.0,mazda_3,505,0.5365,21.6
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,1.0,1,1,0.0,mazda_cx5,696,0.4825,22.5
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.6574,16.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5964,23.3
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q15,direct,kia_cerato,1,329,1,1.0,1,1,0.0,kia_cerato,328,0.5575,21.7
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.7526,21.7
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,1.0,1,1,0.0,toyota_corolla,329,0.6395,20.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,1,0.5,2,1,0.0,toyota_corolla,323,0.5956,21.5
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,1,0.3333,3,1,0.0,toyota_rav4,325,0.6159,21.8
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,1,1.0,1,1,0.0,mazda_3,708,0.6483,22.2
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,1,1.0,1,1,0.0,mazda_cx5,801,0.6546,22.8
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,1.0,1,1,0.0,hyundai_i30,567,0.7116,22.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.0,hyundai_tucson,586,0.8018,22.7
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,1,1.0,1,1,0.0,kia_cerato,531,0.733,22.2
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,1,1.0,1,1,0.0,kia_sportage,501,0.5908,22.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.4899,24.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.5257,21.4
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,1.0,1,1,0.0,mazda_3,490,0.5702,19.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.5,2,1,0.0,mazda_cx5,798,0.3495,18.8
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.4906,21.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5189,19.1
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,1,1.0,1,1,0.0,kia_cerato,329,0.6142,13.9
+product_check,"MiniLM filtered, clean text",pymupdf,minilm,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,1,1.0,1,1,0.0,kia_sportage,497,0.6253,16.4
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q01,direct,toyota_corolla,1,358;359,0,0.0,,0,1.0,mazda_3,611,0.7622,28.0
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q02,direct,toyota_rav4,1,456;457,0,0.0,,0,1.0,mazda_3,611,0.7622,35.6
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q03,direct,mazda_3,1,611;612;405,1,1.0,1,1,0.8,mazda_3,611,0.7622,34.3
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.25,4,0,0.8,mazda_3,611,0.7622,35.1
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.5,2,0,0.8,mazda_3,611,0.7622,28.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q06,direct,hyundai_tucson,1,523;522;524,1,0.3333,3,0,0.6,mazda_3,611,0.7622,36.3
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q07,direct,kia_cerato,1,462;463;464,0,0.0,,0,1.0,mazda_3,611,0.7622,35.3
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q08,direct,kia_sportage,1,438;437;439,0,0.0,,0,1.0,mazda_3,611,0.7622,35.3
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,0,1.0,toyota_rav4,485,0.6561,30.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q10,direct,toyota_rav4,1,496;231;507,0,0.0,,0,1.0,hyundai_tucson,37,0.4877,34.0
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,0,1.0,mazda_cx5,613,0.7246,33.8
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q12,direct,mazda_cx5,1,694;696;698,1,0.2,5,0,0.8,mazda_3,572,0.5025,33.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q13,direct,hyundai_i30,1,97;102,1,0.2,5,0,0.8,hyundai_tucson,150,0.7254,34.8
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q14,direct,hyundai_tucson,1,83;84;81,0,0.0,,0,1.0,mazda_cx5,62,0.6545,28.0
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q15,direct,kia_cerato,1,329,0,0.0,,0,1.0,mazda_3,148,0.6173,26.4
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,0,1.0,mazda_3,511,0.7912,35.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,0,1.0,hyundai_tucson,150,0.7254,25.5
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q29,direct,toyota_corolla,0,391,0,0.0,,0,1.0,hyundai_tucson,586,0.8018,33.2
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,0,1.0,hyundai_tucson,586,0.8018,27.3
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q31,direct,mazda_3,0,707;697,0,0.0,,0,1.0,hyundai_tucson,586,0.8018,34.6
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q32,direct,mazda_cx5,0,801;793,1,0.25,4,0,0.8,hyundai_tucson,586,0.8018,35.6
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q33,direct,hyundai_i30,0,634;566,1,0.3333,3,0,0.8,hyundai_tucson,586,0.8018,35.4
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.8,hyundai_tucson,586,0.8018,32.1
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q35,direct,kia_cerato,0,596;531,1,0.5,2,0,0.6,hyundai_tucson,586,0.8018,29.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,0,1.0,hyundai_tucson,586,0.8018,27.7
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q37,paraphrased,toyota_corolla,0,378;379;380,0,0.0,,0,1.0,toyota_rav4,485,0.5681,35.8
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q38,paraphrased,toyota_rav4,0,496;231;507,0,0.0,,0,1.0,kia_cerato,7,0.5604,28.2
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q39,paraphrased,mazda_3,0,481;483;490,1,0.5,2,0,0.6,mazda_cx5,609,0.6092,26.4
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q40,paraphrased,mazda_cx5,0,694;696;698,0,0.0,,0,1.0,toyota_corolla,368,0.4561,27.6
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,0,1.0,kia_sportage,82,0.6357,25.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,0,0.0,,0,1.0,mazda_3,66,0.5785,26.9
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q43,paraphrased,kia_cerato,0,329,1,0.25,4,0,0.8,mazda_cx5,161,0.6386,27.2
+product_check,"MiniLM unfiltered, clean text",pymupdf,minilm,220/40,5,0,0,Q44,paraphrased,kia_sportage,0,496;497,1,0.5,2,0,0.8,mazda_cx5,640,0.6469,26.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q01,direct,toyota_corolla,1,358;359,1,1.0,1,1,0.0,toyota_corolla,358,0.7086,16.3
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q02,direct,toyota_rav4,1,456;457,1,0.5,2,1,0.0,toyota_rav4,408,0.6909,15.4
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q03,direct,mazda_3,1,611;612;405,1,0.5,2,1,0.0,mazda_3,607,0.7305,16.4
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q04,direct,mazda_cx5,1,739;732;409,1,1.0,1,1,0.0,mazda_cx5,739,0.7284,16.7
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q05,direct,hyundai_i30,1,502;503;162,1,1.0,1,1,0.0,hyundai_i30,162,0.7302,16.0
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.0,hyundai_tucson,523,0.7308,16.4
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q07,direct,kia_cerato,1,462;463;464,0,0.0,,1,0.0,kia_cerato,255,0.1829,15.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q08,direct,kia_sportage,1,438;437;439,0,0.0,,1,0.0,kia_sportage,210,0.2074,16.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q09,direct,toyota_corolla,1,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.5656,17.3
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.4987,17.7
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q11,direct,mazda_3,1,481;483;490,1,0.5,2,1,0.0,mazda_3,492,0.5388,16.7
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q12,direct,mazda_cx5,1,694;696;698,1,0.3333,3,1,0.0,mazda_cx5,392,0.6138,16.9
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q13,direct,hyundai_i30,1,97;102,1,1.0,1,1,0.0,hyundai_i30,97,0.612,15.9
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q14,direct,hyundai_tucson,1,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5964,17.8
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q15,direct,kia_cerato,1,329,0,0.0,,1,0.0,kia_cerato,315,0.1771,13.9
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q16,direct,kia_sportage,1,496;497,1,0.2,5,1,0.0,kia_sportage,219,0.2622,15.3
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q28,direct,toyota_corolla,1,327;328;330,1,1.0,1,1,0.0,toyota_corolla,329,0.633,15.1
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q29,direct,toyota_corolla,0,391,1,0.5,2,1,0.0,toyota_corolla,323,0.5907,15.9
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q30,direct,toyota_rav4,0,501;503,1,0.3333,3,1,0.0,toyota_rav4,325,0.6094,16.4
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q31,direct,mazda_3,0,707;697,1,1.0,1,1,0.0,mazda_3,708,0.6483,16.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q32,direct,mazda_cx5,0,801;793,1,1.0,1,1,0.0,mazda_cx5,801,0.6546,16.6
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q33,direct,hyundai_i30,0,634;566,1,1.0,1,1,0.0,hyundai_i30,567,0.6999,16.7
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.0,hyundai_tucson,586,0.7819,17.1
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q35,direct,kia_cerato,0,596;531,0,0.0,,1,0.0,kia_cerato,255,0.2008,17.0
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,1,0.0,kia_sportage,210,0.213,14.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q37,paraphrased,toyota_corolla,0,378;379;380,1,1.0,1,1,0.0,toyota_corolla,378,0.4899,17.3
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q38,paraphrased,toyota_rav4,0,496;231;507,1,1.0,1,1,0.0,toyota_rav4,496,0.5435,16.6
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q39,paraphrased,mazda_3,0,481;483;490,1,0.25,4,1,0.0,mazda_3,492,0.6894,16.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.3333,3,1,0.0,mazda_cx5,392,0.5396,19.2
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q41,paraphrased,hyundai_i30,0,97;102,1,1.0,1,1,0.0,hyundai_i30,102,0.5016,17.3
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,1,1.0,1,1,0.0,hyundai_tucson,84,0.5275,16.8
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q43,paraphrased,kia_cerato,0,329,0,0.0,,1,0.0,kia_cerato,229,0.1728,14.6
+product_check,"MiniLM filtered, pypdf text",pypdf,minilm,220/40,5,1,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,1,0.0,kia_sportage,219,0.2194,14.7
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q01,direct,toyota_corolla,1,358;359,0,0.0,,0,1.0,hyundai_tucson,523,0.7308,26.4
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q02,direct,toyota_rav4,1,456;457,0,0.0,,0,1.0,hyundai_tucson,523,0.7308,28.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q03,direct,mazda_3,1,611;612;405,1,0.2,5,0,0.6,hyundai_tucson,523,0.7308,25.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q04,direct,mazda_cx5,1,739;732;409,1,0.25,4,0,0.8,hyundai_tucson,523,0.7308,25.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q05,direct,hyundai_i30,1,502;503;162,1,0.3333,3,0,0.8,hyundai_tucson,523,0.7308,27.0
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q06,direct,hyundai_tucson,1,523;522;524,1,1.0,1,1,0.8,hyundai_tucson,523,0.7308,26.9
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q07,direct,kia_cerato,1,462;463;464,0,0.0,,0,1.0,hyundai_tucson,523,0.7308,25.8
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q08,direct,kia_sportage,1,438;437;439,0,0.0,,0,1.0,hyundai_tucson,523,0.7308,22.1
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q09,direct,toyota_corolla,1,378;379;380,0,0.0,,0,1.0,toyota_rav4,485,0.6459,23.9
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q10,direct,toyota_rav4,1,496;231;507,1,1.0,1,1,0.8,toyota_rav4,496,0.4987,25.2
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q11,direct,mazda_3,1,481;483;490,0,0.0,,0,1.0,mazda_cx5,613,0.7133,25.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q12,direct,mazda_cx5,1,694;696;698,1,0.2,5,1,0.4,mazda_cx5,392,0.6138,24.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q13,direct,hyundai_i30,1,97;102,0,0.0,,0,1.0,hyundai_tucson,150,0.7254,23.8
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q14,direct,hyundai_tucson,1,83;84;81,0,0.0,,0,1.0,hyundai_i30,66,0.6378,26.9
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q15,direct,kia_cerato,1,329,0,0.0,,0,1.0,mazda_3,148,0.6173,25.3
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q16,direct,kia_sportage,1,496;497,0,0.0,,0,1.0,mazda_cx5,640,0.7808,26.2
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q28,direct,toyota_corolla,1,327;328;330,0,0.0,,0,1.0,hyundai_tucson,150,0.7254,25.7
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q29,direct,toyota_corolla,0,391,0,0.0,,0,1.0,hyundai_tucson,586,0.7819,26.2
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q30,direct,toyota_rav4,0,501;503,0,0.0,,0,1.0,hyundai_tucson,586,0.7819,35.8
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q31,direct,mazda_3,0,707;697,1,0.25,4,0,0.8,hyundai_tucson,586,0.7819,26.4
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q32,direct,mazda_cx5,0,801;793,1,0.3333,3,0,0.8,hyundai_tucson,586,0.7819,27.0
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q33,direct,hyundai_i30,0,634;566,1,0.5,2,0,0.6,hyundai_tucson,586,0.7819,26.7
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q34,direct,hyundai_tucson,0,33;586;530,1,1.0,1,1,0.8,hyundai_tucson,586,0.7819,25.3
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q35,direct,kia_cerato,0,596;531,0,0.0,,0,1.0,hyundai_tucson,586,0.7819,26.3
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q36,direct,kia_sportage,0,560;501,0,0.0,,0,1.0,hyundai_tucson,586,0.7819,26.1
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q37,paraphrased,toyota_corolla,0,378;379;380,0,0.0,,0,1.0,toyota_rav4,485,0.5704,27.1
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q38,paraphrased,toyota_rav4,0,496;231;507,1,1.0,1,1,0.8,toyota_rav4,496,0.5435,26.4
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q39,paraphrased,mazda_3,0,481;483;490,0,0.0,,1,0.4,mazda_3,492,0.6894,26.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q40,paraphrased,mazda_cx5,0,694;696;698,1,0.25,4,1,0.2,mazda_cx5,392,0.5396,26.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q41,paraphrased,hyundai_i30,0,97;102,0,0.0,,0,1.0,mazda_3,519,0.6161,25.6
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q42,paraphrased,hyundai_tucson,0,83;84;81,0,0.0,,0,1.0,mazda_3,66,0.5785,25.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q43,paraphrased,kia_cerato,0,329,0,0.0,,0,1.0,mazda_cx5,161,0.6225,25.5
+product_check,"MiniLM unfiltered, pypdf text",pypdf,minilm,220/40,5,0,0,Q44,paraphrased,kia_sportage,0,496;497,0,0.0,,0,1.0,mazda_cx5,640,0.6138,26.0

@@ -1,0 +1,891 @@
+[
+  {
+    "id": "Q01",
+    "vehicle_id": "toyota_corolla",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tire pressure",
+      "tpms",
+      "warning"
+    ],
+    "page_hint": 10,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "The light means one or more tyres are low on pressure. Stop somewhere safe as soon as possible, check for a puncture and adjust the tyre pressures. If the light blinks for about a minute and then stays on, the warning system itself has a fault. If the light stays on after adjusting the pressures, a tyre is probably flat: fit the spare and have the flat repaired by a Toyota dealer. Avoid abrupt steering and braking.",
+      "pages": [
+        358,
+        359
+      ],
+      "quote": "Stop your vehicle in a safe place as soon as possible.",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q02",
+    "vehicle_id": "toyota_rav4",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tire pressure",
+      "tpms",
+      "warning"
+    ],
+    "page_hint": 10,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "The light means a tyre is under-inflated. Stop in a safe place as soon as possible and adjust the tyre pressures immediately. If the light comes back on after adjusting, a tyre is probably flat: fit the spare and have the flat repaired by a Toyota dealer. Avoid abrupt steering and braking. If the TPMS malfunction indicator is shown instead, the system is not working properly.",
+      "pages": [
+        456,
+        457
+      ],
+      "quote": "If the tire pressure warning light comes on (vehicles with tire pressure warning system)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q03",
+    "vehicle_id": "mazda_3",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tyre pressure",
+      "tpms",
+      "warning"
+    ],
+    "page_hint": 143,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "The TPMS warning light turns on when a tyre drops below the specified pressure. The display shows each tyre's pressure with the low tyre in yellow. Do not drive at high speed. Check the tyres and adjust them to the correct pressure while they are cool. If the light flashes, the TPMS has a problem: have it inspected by an expert repairer (Mazda recommends an Authorised Mazda Repairer).",
+      "pages": [
+        611,
+        612,
+        405
+      ],
+      "quote": "the TPMS warning light turns on. At the same time, a message and the tyre pressure of each tyre are displayed",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q04",
+    "vehicle_id": "mazda_cx5",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tyre pressure",
+      "tpms",
+      "warning"
+    ],
+    "page_hint": 153,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "One or more tyres are too low. Reduce speed immediately and avoid sudden steering or braking. Pull over somewhere safe, check the tyres, and decide whether there is enough air to reach a place where air can be added. If the light flashes, the TPMS has a malfunction: have it checked by an expert repairer (Mazda recommends an Authorised Mazda Repairer).",
+      "pages": [
+        739,
+        732,
+        409
+      ],
+      "quote": "decrease vehicle speed immediately and avoid sudden manoeuvring and braking",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q05",
+    "vehicle_id": "hyundai_i30",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tpms",
+      "tyre pressure"
+    ],
+    "page_hint": 3,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "The low tyre pressure warning means one or more tyres are under-inflated compared with the pressures saved when the system was last reset. Stop safely, check the tyres and inflate them to the recommended pressure (tyre label on the driver's side centre pillar). Then reset the TPMS with the SET button. If the light blinks, the system has a malfunction: have it checked by a Hyundai authorised repairer.",
+      "pages": [
+        502,
+        503,
+        162
+      ],
+      "quote": "The Tyre Pressure Monitoring System (TPMS) determines whether the tyre pressure is low",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q06",
+    "vehicle_id": "hyundai_tucson",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tyre pressure",
+      "tpms"
+    ],
+    "page_hint": 33,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "One or more tyres are significantly under-inflated, and the position telltale shows which one. Reduce speed, avoid hard cornering and expect longer stopping distances. Stop and check the tyres as soon as possible, and inflate them to the pressure on the placard on the driver's side centre pillar. If you can't reach a service station or the tyre won't hold air, fit the spare. A light that blinks for about a minute and then stays on means a TPMS malfunction: see a Hyundai authorised repairer.",
+      "pages": [
+        523,
+        522,
+        524
+      ],
+      "quote": "one or more of your tyres is significantly under-inflated",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q07",
+    "vehicle_id": "kia_cerato",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tyre pressure",
+      "tpms"
+    ],
+    "page_hint": 18,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "The light means a tyre has dropped below the recommended pressure. Stop safely, check the tyres when cold, and inflate them to the recommended pressure (tyre pressure label on the driver's door). Then set the TPMS by holding the SET button for over 3 seconds while stopped. In cold weather the light can come on even when the pressures were correct. If it blinks, have the system checked by an authorised Kia dealer.",
+      "pages": [
+        462,
+        463,
+        464
+      ],
+      "quote": "If the tyre pressure decreases below the recommended pressure, the system warning light will be illuminated.",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q08",
+    "vehicle_id": "kia_sportage",
+    "question": "What does the tyre pressure warning light mean and what should I do?",
+    "category": "common_topic",
+    "expected_keywords": [
+      "tpms",
+      "tyre"
+    ],
+    "page_hint": 125,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "One or more tyres are significantly under-inflated, and the position telltale shows which one. Immediately reduce speed, avoid hard cornering and expect longer stopping distances. Stop and check the tyres as soon as possible, and inflate them to the pressure on the placard on the driver's side centre pillar. If you can't reach a service station or the tyre won't hold air, fit the spare. A malfunction indicator that blinks for about a minute and then stays on means a system fault: see an authorised Kia dealer.",
+      "pages": [
+        438,
+        437,
+        439
+      ],
+      "quote": "one or more of your tyres is significantly under-inflated",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q09",
+    "vehicle_id": "toyota_corolla",
+    "question": "How do I jump-start this car if the battery is dead?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "jump start",
+      "cables",
+      "battery"
+    ],
+    "page_hint": 378,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "You need jumper (booster) cables and a second vehicle with a 12-volt battery. Carry the key and open the bonnet. Connect the positive cable to your battery's positive terminal, then to the other vehicle's positive terminal. Connect the negative cable to the other vehicle's negative terminal, then to the metal earthing point on your vehicle. Start the other vehicle and hold its engine speed slightly raised for about 5 minutes. On smart-key models, open and close a door with the engine switch off. Then start your engine. Remove the cables in the exact reverse order and have the car inspected by a Toyota dealer. The car cannot be push-started.",
+      "pages": [
+        378,
+        379,
+        380
+      ],
+      "quote": "you can jump start your vehicle by following the steps below.",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q10",
+    "vehicle_id": "toyota_rav4",
+    "question": "What type of fuel does this car take?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "fuel",
+      "unleaded",
+      "octane"
+    ],
+    "page_hint": 231,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Unleaded petrol only, with an octane rating of 87 (Research Octane Number 91) or higher. Toyota does not recommend fuel containing methanol, and ethanol blends above 15% (such as E85) should not be used.",
+      "pages": [
+        496,
+        231,
+        507
+      ],
+      "quote": "Unleaded gasoline only",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "note": "US-market manual: 87 is the US octane scale (AKI). The Australian figure is RON 91."
+    }
+  },
+  {
+    "id": "Q11",
+    "vehicle_id": "mazda_3",
+    "question": "How often does the engine oil need to be changed?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "oil",
+      "change",
+      "interval",
+      "km"
+    ],
+    "page_hint": 483,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Engine oil and filter are replaced at every scheduled service. This is the European manual: the service indicator comes on before a maximum of 20,000 km or 12 months, whichever comes first (other regions: 10,000 km or 6 months). Under severe conditions (long idling or low speeds, dusty roads, cold weather or short trips, very high temperatures, mountain driving) replace them every 10,000 km or sooner.",
+      "pages": [
+        481,
+        483,
+        490
+      ],
+      "quote": "maximum interval, 20,000 km (12,500 miles) or 12 months",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "note": "The normal interval depends on the regional table, which is garbled in the PDF text. Confirm the Australian figure on the printed pages.",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q12",
+    "vehicle_id": "mazda_cx5",
+    "question": "Does this car have a spare tyre?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "spare tyre",
+      "temporary"
+    ],
+    "page_hint": 153,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "It depends on the model. Where fitted, the CX-5 has a temporary (compact) spare tyre under the boot floor, held by a hold-down bolt, for emergency use only. Some models have no spare, jack or tools and carry a tyre repair kit instead.",
+      "pages": [
+        694,
+        696,
+        698
+      ],
+      "quote": "Your Mazda has a temporary spare tyre.",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q13",
+    "vehicle_id": "hyundai_i30",
+    "question": "How do I replace the battery in the remote key?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "battery",
+      "remote key",
+      "replace"
+    ],
+    "page_hint": 97,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Both key types use a CR2032 battery. Remote key: prise the cover open with a slim tool at the slot, remove the battery cover with a screwdriver and swap the battery. Smart key: remove the mechanical key, prise open the rear cover with a slim tool, replace the battery the right way up, and refit the cover. If it still doesn't work, contact a Hyundai authorised repairer.",
+      "pages": [
+        97,
+        102
+      ],
+      "quote": "Battery Type: CR2032",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q14",
+    "vehicle_id": "hyundai_tucson",
+    "question": "Can I fit a child seat using ISOFIX anchors in this car?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "child restraint",
+      "isofix"
+    ],
+    "page_hint": 47,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Yes. ISOFIX anchorages are in both rear outboard seats, and in the front passenger outboard position where equipped. Move the seat belt buckle and any objects away from the anchorages, then attach the child seat to the ISOFIX anchorages following the child seat maker's instructions. Secure the top tether as well.",
+      "pages": [
+        83,
+        84,
+        81
+      ],
+      "quote": "either of the rear outboard seating positions",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q15",
+    "vehicle_id": "kia_cerato",
+    "question": "What is the towing capacity of this car?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "towing",
+      "trailer"
+    ],
+    "page_hint": 261,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "For Australia and New Zealand: 610 kg without trailer brakes. With trailer brakes: 1,100 kg (1.6 T-GDI DCT and 2.0 MPI automatic) or 1,200 kg (2.0 MPI manual). The maximum static vertical load on the coupling is 75 kg.",
+      "pages": [
+        329
+      ],
+      "quote": "610 (1,344)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q16",
+    "vehicle_id": "kia_sportage",
+    "question": "How do I replace the windscreen wiper blades?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "wiper",
+      "blade"
+    ],
+    "page_hint": 18,
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Turn the vehicle off. Move the wiper switch to the single-wipe (MIST/1x) position and hold it for more than 2 seconds, which moves the wipers to the service position. Raise the wiper arm. Type A: lift the blade clip, pull the blade down and remove it. Type B: turn the blade to expose the plastic clip, compress it, slide the blade down and lift it off. Fit the new blade in reverse order, lower the arm, and turn the vehicle on to return the wipers.",
+      "pages": [
+        496,
+        497
+      ],
+      "quote": "Move the wiper switch to the single wiping (MIST/1x) position.",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q17",
+    "vehicle_id": null,
+    "question": "What does the tyre pressure warning light mean?",
+    "category": "random_vehicle",
+    "expected_keywords": [
+      "tyre pressure",
+      "tpms"
+    ],
+    "notes": "No vehicle specified. System should ask which vehicle rather than guess a manual.",
+    "type": "ambiguous",
+    "expected_behaviour": "ask",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q18",
+    "vehicle_id": null,
+    "question": "How do I jump-start the car?",
+    "category": "random_vehicle",
+    "expected_keywords": [
+      "jump",
+      "battery"
+    ],
+    "notes": "No vehicle specified. Procedure differs enough between vehicles that a guess could be wrong/unsafe.",
+    "type": "ambiguous",
+    "expected_behaviour": "ask",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q19",
+    "vehicle_id": null,
+    "question": "What fuel type should I use?",
+    "category": "random_vehicle",
+    "expected_keywords": [
+      "fuel",
+      "unleaded"
+    ],
+    "notes": "No vehicle specified.",
+    "type": "ambiguous",
+    "expected_behaviour": "ask",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q20",
+    "vehicle_id": "toyota_corolla",
+    "question": "Can I sue the rental company if a warning light comes on during my trip?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Legal question, not covered by an owner's manual. System should say this isn't supported by the manuals rather than guess.",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q21",
+    "vehicle_id": "mazda_3",
+    "question": "What's the resale value of this car after 3 years of rental use?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Not manual content.",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q22",
+    "vehicle_id": "hyundai_tucson",
+    "question": "Can you recommend a good independent mechanic near Sydney CBD?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Local business recommendation, not manual content.",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q23",
+    "vehicle_id": "kia_sportage",
+    "question": "How do I file an insurance claim after a minor scratch on this rental car?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Insurance process, not manual content.",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q24",
+    "vehicle_id": "toyota_rav4",
+    "question": "Is this car haunted?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Nonsense/adversarial 'weird case', per the milestone plan's request for a few trickier questions.",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q25",
+    "vehicle_id": "kia_cerato",
+    "question": "What's the maximum legal speed for this car on a public motorway in Queensland?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Road law question, not manual content (manual covers vehicle top speed at most, not legal speed limits).",
+    "type": "unsupported",
+    "expected_behaviour": "refuse",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q26",
+    "vehicle_id": "hyundai_i30",
+    "question": "The customer was in a minor collision and is asking what to do right now — can you advise?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Safety-critical live situation. Even if the manual has an emergency chapter, the assistant should defer to emergency services/roadside assistance rather than let a RAG answer substitute for real-time safety guidance.",
+    "type": "unsupported",
+    "expected_behaviour": "escalate",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q27",
+    "vehicle_id": "mazda_cx5",
+    "question": "Does this car support Bluetooth phone pairing, and can it also fly?",
+    "category": "out_of_scope",
+    "expected_keywords": [],
+    "notes": "Mixed question: half genuinely answerable (Bluetooth), half absurd. Tests whether the system answers the real part and correctly flags/ignores the nonsensical part instead of inventing an answer.",
+    "type": "unsupported",
+    "expected_behaviour": "partial",
+    "source": "questions.json"
+  },
+  {
+    "id": "Q28",
+    "vehicle_id": "toyota_corolla",
+    "question": "How do I replace the battery in the remote key?",
+    "category": "unique_topic",
+    "expected_keywords": [
+      "battery",
+      "key",
+      "replace"
+    ],
+    "page_hint": 94,
+    "notes": "Same topic as Q13 (Hyundai i30) on a different vehicle — useful pair for spot-checking that answers/citations don't get mixed between models.",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "questions.json",
+    "gold": {
+      "answer": "Use a CR2032 lithium battery (without smart key) or a CR2450 (with smart key). Open the key case with a small flathead screwdriver, swap the battery and close the case. Don't apply excessive force, which can deform the cover.",
+      "pages": [
+        327,
+        328,
+        330
+      ],
+      "quote": "Lithium battery CR2032",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q29",
+    "vehicle_id": "toyota_corolla",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "Front 33 psi (230 kPa), rear 30 psi (210 kPa), compact spare 60 psi (420 kPa), measured cold.",
+      "pages": [
+        391
+      ],
+      "quote": "Front 33 psi (230 kPa",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20"
+    }
+  },
+  {
+    "id": "Q30",
+    "vehicle_id": "toyota_rav4",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "Depends on the wheel type: 33, 35 or 36 psi (230, 240 or 250 kPa) front and rear. The 17-inch wheel types A-G use 33, 35 or 36 psi; the 18- and 19-inch wheels use 33 psi. The spare is 60 psi (420 kPa). Confirm on the tyre label.",
+      "pages": [
+        501,
+        502,
+        503,
+        504
+      ],
+      "quote": "Front: 35 psi (240 kPa",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "check_note": "2026-10-20: corrected - the original answer omitted the 33 psi variants (types C, F and the 18/19-inch wheels, p.502-504)."
+    }
+  },
+  {
+    "id": "Q31",
+    "vehicle_id": "mazda_3",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "With up to 3 people: 250 kPa (36 psi) front and rear (Type B 205/60R16 and 215/45R18: 260 kPa front). At full load: 260-270 kPa front, 290 kPa (42 psi) rear. The exact figure depends on tyre size and type, so confirm on the tyre pressure label on the driver's door frame. Temporary spare: 420 kPa (60 psi).",
+      "pages": [
+        707,
+        697
+      ],
+      "quote": "205/60R16 92V Type A*1 Front 250 kPa (2.5 bar, 36 psi)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "note": "Confirm no specification table lists pressures.",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q32",
+    "vehicle_id": "mazda_cx5",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "225/65R17 tyres: 230 kPa (33 psi) front and rear with up to 3 people; full load 260 kPa front, 280 kPa rear. 225/55R19 tyres: 250 kPa (36 psi) front and rear with up to 3 people; full load 260 kPa front, 290 kPa rear. Temporary spare: 320 kPa (46 psi).",
+      "pages": [
+        801,
+        793
+      ],
+      "quote": "225/65R17 102V Front 230 kPa (2.3 bar, 33 psi)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q33",
+    "vehicle_id": "hyundai_i30",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "Normal load: 220 kPa (32 psi) front and rear for 15-17 inch tyres, 240 kPa (35 psi) for the N Line 18 inch. Maximum load: 235 kPa front, 250-275 kPa rear. Measure cold; the tyre label is on the driver's side centre pillar.",
+      "pages": [
+        634,
+        566
+      ],
+      "quote": "195/65R15 6.0J X 15 220 (2.2, 32) 220 (2.2, 32)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "note": "The manual says pressures are also listed in the manual, but no table was found in the extracted text. Check the printed specification pages.",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q34",
+    "vehicle_id": "hyundai_tucson",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "240 kPa (35 psi) front and rear at normal load. At maximum load: 240 kPa front, 275 kPa (40 psi) rear. The compact spare is 420 kPa (60 psi).",
+      "pages": [
+        33,
+        586,
+        530
+      ],
+      "quote": "240(35)",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "check_note": "2026-10-19: wording corrected against the table on p.33."
+    }
+  },
+  {
+    "id": "Q35",
+    "vehicle_id": "kia_cerato",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "230 kPa (33 psi) front and rear for 15-17 inch tyres at normal and maximum load, 240 kPa (35 psi) for 225/40R18. Compact spare: 420 kPa (60 psi). Measure cold; the label is on the driver's door.",
+      "pages": [
+        596,
+        531
+      ],
+      "quote": "Tyres and wheels For Australia and New zealand",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "note": "The specification table did not extract. Read the printed page 10-9 and add the figures.",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q36",
+    "vehicle_id": "kia_sportage",
+    "question": "What is the recommended cold tyre pressure for this car?",
+    "category": "common_topic",
+    "type": "direct",
+    "expected_behaviour": "answer",
+    "source": "new",
+    "notes": "Values differ per vehicle and 6 of 8 manuals don't print a figure. A numeric answer for those is a hallucination.",
+    "gold": {
+      "answer": "240 kPa (35 psi) front and rear for every full-size tyre, at normal and maximum load. Compact spare: 420 kPa (60 psi).",
+      "pages": [
+        560,
+        501
+      ],
+      "quote": "Tyres and wheels *1. Load Index *2. Speed Symbol",
+      "status": "verified",
+      "verified_by": "Checked against the PDF pages, 2026-10-20",
+      "check_note": "2026-10-19: checked against the rendered PDF page (table text extracts without its column headings)."
+    }
+  },
+  {
+    "id": "Q37",
+    "vehicle_id": "toyota_corolla",
+    "question": "The Corolla's battery is flat and it won't start. How do I jump it off another car?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q09",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q38",
+    "vehicle_id": "toyota_rav4",
+    "question": "What petrol do I put in the RAV4, is 91 okay?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q10",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q39",
+    "vehicle_id": "mazda_3",
+    "question": "How many km can the Mazda 3 go before it needs an oil change?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q11",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q40",
+    "vehicle_id": "mazda_cx5",
+    "question": "Got a flat in the CX-5, is there a spare wheel in the boot?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q12",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q41",
+    "vehicle_id": "hyundai_i30",
+    "question": "The i30 key fob stopped working, how do I swap its battery?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q13",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q42",
+    "vehicle_id": "hyundai_tucson",
+    "question": "Can I clip a baby seat into the Tucson, where do the anchor points go?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q14",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q43",
+    "vehicle_id": "kia_cerato",
+    "question": "How heavy a trailer can the Cerato pull?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q15",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q44",
+    "vehicle_id": "kia_sportage",
+    "question": "The wipers on the Sportage are streaking, how do I change the blades?",
+    "category": "paraphrased",
+    "type": "paraphrased",
+    "subtype": "customer_style",
+    "paraphrase_of": "Q16",
+    "expected_behaviour": "answer",
+    "source": "new"
+  },
+  {
+    "id": "Q45",
+    "vehicle_id": "toyota_corolla",
+    "question": "The Corolla makes a grinding noise when I brake. Which part has failed?",
+    "category": "out_of_scope",
+    "type": "unsupported",
+    "subtype": "diagnosis",
+    "expected_behaviour": "refuse",
+    "source": "new",
+    "notes": "Must not diagnose. Point to the manual's advice and a qualified mechanic."
+  },
+  {
+    "id": "Q46",
+    "vehicle_id": "mazda_cx5",
+    "question": "What is the part number for the CX-5 alternator?",
+    "category": "out_of_scope",
+    "type": "unsupported",
+    "subtype": "absent_detail",
+    "expected_behaviour": "refuse",
+    "source": "new",
+    "notes": "Part numbers are not in an owner's manual."
+  },
+  {
+    "id": "Q47",
+    "vehicle_id": "kia_cerato",
+    "question": "How much does it cost to replace the Cerato's windscreen?",
+    "category": "out_of_scope",
+    "type": "unsupported",
+    "subtype": "out_of_domain",
+    "expected_behaviour": "refuse",
+    "source": "new",
+    "notes": "Pricing is not manual content."
+  },
+  {
+    "id": "Q48",
+    "vehicle_id": null,
+    "question": "What is the towing capacity of the Ford Ranger?",
+    "category": "out_of_scope",
+    "type": "unsupported",
+    "subtype": "out_of_fleet",
+    "expected_behaviour": "refuse",
+    "source": "new",
+    "notes": "Not in the fleet. The risk is answering with another vehicle's towing figure."
+  },
+  {
+    "id": "Q49",
+    "vehicle_id": null,
+    "question": "How do I turn off the traction control?",
+    "category": "random_vehicle",
+    "type": "ambiguous",
+    "subtype": "no_vehicle",
+    "expected_behaviour": "ask",
+    "source": "new",
+    "notes": "Procedure differs by vehicle, so it should ask which one."
+  },
+  {
+    "id": "Q50",
+    "vehicle_id": null,
+    "question": "What does the orange engine light on this Kia mean?",
+    "category": "random_vehicle",
+    "type": "ambiguous",
+    "subtype": "partial_vehicle",
+    "expected_behaviour": "ask",
+    "source": "new",
+    "notes": "Two Kias in the fleet (Cerato, Sportage). It should ask which model."
+  }
+]

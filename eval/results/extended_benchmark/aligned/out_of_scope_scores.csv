@@ -1,0 +1,91 @@
+embedder,group,question_id,expected_behaviour,question,top1_score
+bm25,answerable,Q01,answer,What does the tyre pressure warning light mean and what should I do?,18.4397
+bm25,answerable,Q02,answer,What does the tyre pressure warning light mean and what should I do?,18.25
+bm25,answerable,Q03,answer,What does the tyre pressure warning light mean and what should I do?,23.7636
+bm25,answerable,Q04,answer,What does the tyre pressure warning light mean and what should I do?,23.2525
+bm25,answerable,Q05,answer,What does the tyre pressure warning light mean and what should I do?,35.1684
+bm25,answerable,Q06,answer,What does the tyre pressure warning light mean and what should I do?,28.9887
+bm25,answerable,Q07,answer,What does the tyre pressure warning light mean and what should I do?,34.011
+bm25,answerable,Q08,answer,What does the tyre pressure warning light mean and what should I do?,28.3036
+bm25,answerable,Q09,answer,How do I jump-start this car if the battery is dead?,18.8622
+bm25,answerable,Q10,answer,What type of fuel does this car take?,12.1333
+bm25,answerable,Q11,answer,How often does the engine oil need to be changed?,18.9084
+bm25,answerable,Q12,answer,Does this car have a spare tyre?,14.7966
+bm25,answerable,Q13,answer,How do I replace the battery in the remote key?,26.5397
+bm25,answerable,Q14,answer,Can I fit a child seat using ISOFIX anchors in this car?,35.8639
+bm25,answerable,Q15,answer,What is the towing capacity of this car?,22.048
+bm25,answerable,Q16,answer,How do I replace the windscreen wiper blades?,18.5678
+bm25,answerable,Q28,answer,How do I replace the battery in the remote key?,24.7944
+bm25,answerable,Q29,answer,What is the recommended cold tyre pressure for this car?,18.8976
+bm25,answerable,Q30,answer,What is the recommended cold tyre pressure for this car?,19.0117
+bm25,answerable,Q31,answer,What is the recommended cold tyre pressure for this car?,25.5617
+bm25,answerable,Q32,answer,What is the recommended cold tyre pressure for this car?,24.882
+bm25,answerable,Q33,answer,What is the recommended cold tyre pressure for this car?,28.0114
+bm25,answerable,Q34,answer,What is the recommended cold tyre pressure for this car?,28.2531
+bm25,answerable,Q35,answer,What is the recommended cold tyre pressure for this car?,28.3829
+bm25,answerable,Q36,answer,What is the recommended cold tyre pressure for this car?,27.9449
+bm25,answerable,Q37,answer,The Corolla's battery is flat and it won't start. How do I jump it off another car?,22.0174
+bm25,answerable,Q38,answer,"What petrol do I put in the RAV4, is 91 okay?",18.3784
+bm25,answerable,Q39,answer,How many km can the Mazda 3 go before it needs an oil change?,21.5526
+bm25,answerable,Q40,answer,"Got a flat in the CX-5, is there a spare wheel in the boot?",37.048
+bm25,answerable,Q41,answer,"The i30 key fob stopped working, how do I swap its battery?",15.4186
+bm25,answerable,Q42,answer,"Can I clip a baby seat into the Tucson, where do the anchor points go?",23.2534
+bm25,answerable,Q43,answer,How heavy a trailer can the Cerato pull?,20.2388
+bm25,answerable,Q44,answer,"The wipers on the Sportage are streaking, how do I change the blades?",26.1884
+bm25,unsupported,Q20,refuse,Can I sue the rental company if a warning light comes on during my trip?,24.5463
+bm25,unsupported,Q21,refuse,What's the resale value of this car after 3 years of rental use?,24.8137
+bm25,unsupported,Q22,refuse,Can you recommend a good independent mechanic near Sydney CBD?,12.1997
+bm25,unsupported,Q23,refuse,How do I file an insurance claim after a minor scratch on this rental car?,17.6154
+bm25,unsupported,Q24,refuse,Is this car haunted?,8.9017
+bm25,unsupported,Q25,refuse,What's the maximum legal speed for this car on a public motorway in Queensland?,23.3707
+bm25,unsupported,Q26,escalate,The customer was in a minor collision and is asking what to do right now — can you advise?,30.4935
+bm25,unsupported,Q27,partial,"Does this car support Bluetooth phone pairing, and can it also fly?",21.2754
+bm25,unsupported,Q45,refuse,The Corolla makes a grinding noise when I brake. Which part has failed?,21.2751
+bm25,unsupported,Q46,refuse,What is the part number for the CX-5 alternator?,18.8495
+bm25,unsupported,Q47,refuse,How much does it cost to replace the Cerato's windscreen?,15.8046
+bm25,unsupported,Q48,refuse,What is the towing capacity of the Ford Ranger?,28.6097
+minilm,answerable,Q01,answer,What does the tyre pressure warning light mean and what should I do?,0.7086
+minilm,answerable,Q02,answer,What does the tyre pressure warning light mean and what should I do?,0.6909
+minilm,answerable,Q03,answer,What does the tyre pressure warning light mean and what should I do?,0.7622
+minilm,answerable,Q04,answer,What does the tyre pressure warning light mean and what should I do?,0.7284
+minilm,answerable,Q05,answer,What does the tyre pressure warning light mean and what should I do?,0.7456
+minilm,answerable,Q06,answer,What does the tyre pressure warning light mean and what should I do?,0.7308
+minilm,answerable,Q07,answer,What does the tyre pressure warning light mean and what should I do?,0.7197
+minilm,answerable,Q08,answer,What does the tyre pressure warning light mean and what should I do?,0.6488
+minilm,answerable,Q09,answer,How do I jump-start this car if the battery is dead?,0.5656
+minilm,answerable,Q10,answer,What type of fuel does this car take?,0.4292
+minilm,answerable,Q11,answer,How often does the engine oil need to be changed?,0.5365
+minilm,answerable,Q12,answer,Does this car have a spare tyre?,0.4825
+minilm,answerable,Q13,answer,How do I replace the battery in the remote key?,0.6574
+minilm,answerable,Q14,answer,Can I fit a child seat using ISOFIX anchors in this car?,0.5964
+minilm,answerable,Q15,answer,What is the towing capacity of this car?,0.5575
+minilm,answerable,Q16,answer,How do I replace the windscreen wiper blades?,0.7526
+minilm,answerable,Q28,answer,How do I replace the battery in the remote key?,0.6395
+minilm,answerable,Q29,answer,What is the recommended cold tyre pressure for this car?,0.5956
+minilm,answerable,Q30,answer,What is the recommended cold tyre pressure for this car?,0.6159
+minilm,answerable,Q31,answer,What is the recommended cold tyre pressure for this car?,0.6483
+minilm,answerable,Q32,answer,What is the recommended cold tyre pressure for this car?,0.6546
+minilm,answerable,Q33,answer,What is the recommended cold tyre pressure for this car?,0.7116
+minilm,answerable,Q34,answer,What is the recommended cold tyre pressure for this car?,0.8018
+minilm,answerable,Q35,answer,What is the recommended cold tyre pressure for this car?,0.733
+minilm,answerable,Q36,answer,What is the recommended cold tyre pressure for this car?,0.5908
+minilm,answerable,Q37,answer,The Corolla's battery is flat and it won't start. How do I jump it off another car?,0.4899
+minilm,answerable,Q38,answer,"What petrol do I put in the RAV4, is 91 okay?",0.5257
+minilm,answerable,Q39,answer,How many km can the Mazda 3 go before it needs an oil change?,0.5702
+minilm,answerable,Q40,answer,"Got a flat in the CX-5, is there a spare wheel in the boot?",0.3495
+minilm,answerable,Q41,answer,"The i30 key fob stopped working, how do I swap its battery?",0.4906
+minilm,answerable,Q42,answer,"Can I clip a baby seat into the Tucson, where do the anchor points go?",0.5189
+minilm,answerable,Q43,answer,How heavy a trailer can the Cerato pull?,0.6142
+minilm,answerable,Q44,answer,"The wipers on the Sportage are streaking, how do I change the blades?",0.6253
+minilm,unsupported,Q20,refuse,Can I sue the rental company if a warning light comes on during my trip?,0.4296
+minilm,unsupported,Q21,refuse,What's the resale value of this car after 3 years of rental use?,0.2973
+minilm,unsupported,Q22,refuse,Can you recommend a good independent mechanic near Sydney CBD?,0.2716
+minilm,unsupported,Q23,refuse,How do I file an insurance claim after a minor scratch on this rental car?,0.3463
+minilm,unsupported,Q24,refuse,Is this car haunted?,0.2981
+minilm,unsupported,Q25,refuse,What's the maximum legal speed for this car on a public motorway in Queensland?,0.4645
+minilm,unsupported,Q26,escalate,The customer was in a minor collision and is asking what to do right now — can you advise?,0.3656
+minilm,unsupported,Q27,partial,"Does this car support Bluetooth phone pairing, and can it also fly?",0.5157
+minilm,unsupported,Q45,refuse,The Corolla makes a grinding noise when I brake. Which part has failed?,0.3705
+minilm,unsupported,Q46,refuse,What is the part number for the CX-5 alternator?,0.3809
+minilm,unsupported,Q47,refuse,How much does it cost to replace the Cerato's windscreen?,0.3479
+minilm,unsupported,Q48,refuse,What is the towing capacity of the Ford Ranger?,0.5888

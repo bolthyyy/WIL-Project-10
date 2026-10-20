@@ -1,0 +1,19 @@
+experiment,condition,text_source,n,hit_at_k,mrr,top1_correct_manual,wrong_manual_share,latency_ms,hit_at_k_jack17,jack_n,jack_page_hit,jack_ndcg,jack_top1_correct_manual
+vehicle_filtering,filtered,pymupdf,33,0.727,0.484,1.0,0.0,46.961,0.882,17,0.176,0.992,1.0
+vehicle_filtering,unfiltered,pymupdf,33,0.242,0.127,0.121,0.873,59.933,0.353,17,0.176,0.319,0.176
+top_k,k=1,pymupdf,33,0.364,0.364,1.0,0.0,50.333,0.529,17,0.118,1.0,1.0
+top_k,k=3,pymupdf,33,0.576,0.449,1.0,0.0,56.288,0.647,17,0.118,0.998,1.0
+top_k,k=5,pymupdf,33,0.727,0.484,1.0,0.0,54.315,0.882,17,0.176,0.992,1.0
+top_k,k=8,pymupdf,33,0.788,0.494,1.0,0.0,57.7,0.941,17,0.176,0.99,1.0
+chunking,120/20 words,pymupdf,33,0.667,0.497,1.0,0.0,91.152,0.824,17,0.176,0.991,1.0
+chunking,220/40 words,pymupdf,33,0.727,0.484,1.0,0.0,50.93,0.882,17,0.176,0.992,1.0
+chunking,350/60 words,pymupdf,33,0.697,0.508,1.0,0.0,43.245,0.824,17,0.118,0.987,1.0
+search_method,bm25,pymupdf,33,0.727,0.484,1.0,0.0,61.685,0.882,17,0.176,0.992,1.0
+search_method,minilm,pymupdf,33,1.0,0.919,1.0,0.0,15.767,1.0,17,0.235,1.0,1.0
+search_method,mpnet,pymupdf,33,1.0,0.891,1.0,0.0,51.652,1.0,17,0.235,1.0,1.0
+reranking,off,pymupdf,33,0.727,0.484,1.0,0.0,38.333,0.882,17,0.176,0.992,1.0
+reranking,on,pymupdf,33,0.697,0.495,1.0,0.0,58.682,0.824,17,0.235,0.98,1.0
+product_check,"MiniLM filtered, clean text",pymupdf,33,1.0,0.919,1.0,0.0,21.558,1.0,,,,
+product_check,"MiniLM unfiltered, clean text",pymupdf,33,0.394,0.176,0.061,0.903,31.273,0.353,,,,
+product_check,"MiniLM filtered, pypdf text",pypdf,33,0.788,0.62,1.0,0.0,16.303,0.824,,,,
+product_check,"MiniLM unfiltered, pypdf text",pypdf,33,0.364,0.191,0.212,0.867,26.17,0.353,,,,

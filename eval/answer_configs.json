@@ -1,0 +1,46 @@
+{
+  "_comment": [
+    "Configurations for answer generation (Tasks 4-7, 9) and the PRE-REGISTERED decision rule.",
+    "Agree the weights as a team BEFORE any answers are graded; changing them after seeing results undermines Task 9.",
+    "pipeline 'product' calls src.rag.ask exactly like the app (Chroma + MiniLM, pypdf text, temperature 0.1 fixed in src/generator.py).",
+    "pipeline 'eval_index' uses Jack's EvalIndex (pymupdf text) so settings can be varied."
+  ],
+
+  "decision_weights": {
+    "answer_correctness": 0.30,
+    "faithfulness": 0.25,
+    "citation_support": 0.15,
+    "behaviour_accuracy": 0.15,
+    "not_wrong_vehicle": 0.15
+  },
+
+  "configs": [
+    {
+      "id": "product",
+      "pipeline": "product",
+      "emergency_guard": true,
+      "notes": "What users of the app get today, including the Kia text problem."
+    },
+    {
+      "id": "bm25_baseline",
+      "pipeline": "eval_index",
+      "embedder": "bm25", "chunk_size": 220, "overlap": 40, "top_k": 5,
+      "prompt": "baseline", "temperature": 0.0, "emergency_guard": true,
+      "notes": "Jack's retrieval baseline."
+    },
+    {
+      "id": "minilm_baseline",
+      "pipeline": "eval_index",
+      "embedder": "minilm", "chunk_size": 220, "overlap": 40, "top_k": 5,
+      "prompt": "baseline", "temperature": 0.0, "emergency_guard": true,
+      "notes": "Product settings on correctly extracted text."
+    },
+    {
+      "id": "minilm_strict",
+      "pipeline": "eval_index",
+      "embedder": "minilm", "chunk_size": 220, "overlap": 40, "top_k": 5,
+      "prompt": "strict", "temperature": 0.0, "emergency_guard": true,
+      "notes": "Adds explicit rules for vague, out-of-scope and diagnosis questions."
+    }
+  ]
+}
