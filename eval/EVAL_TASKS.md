@@ -59,7 +59,6 @@ page for only 39% of questions.
 | `find_pages.py` | Searches the manuals for a phrase, to locate supporting pages |
 | `rebuild_aligned.py` | Jack's retrieval experiments re-run on the extended benchmark, on clean and pypdf text |
 | `score_retrieval_gold.py` | Helper imported by `rebuild_aligned.py` (question selection, pypdf text) |
-| `make_appendix_tables.py` | Writes the LaTeX appendix sections |
 | `answer_configs.json` | Answer-generation configurations and the pre-registered decision weights |
 | `run_answers.py` | Generates and saves answers with the passages the model saw (resumable) |
 | `make_grading_sheet.py` | Blind, shuffled grading sheet, with 20% duplicated for a second grader |
@@ -67,7 +66,7 @@ page for only 39% of questions.
 | `rubric.md` | Grading rules |
 | `score_answers.py` | Automatic and graded metrics, Cohen's kappa, decision rule |
 | `results/extended_benchmark/` | Answers (`answers_*.jsonl`), grades and `answer_scores.csv` |
-| `results/extended_benchmark/aligned/` | Retrieval results (`retrieval_summary.csv`, `retrieval_per_question.csv`, `fairness_per_vehicle.csv`, `no_vehicle_questions.csv`, `out_of_scope_*.csv`), `appendix_tables.tex`, `report_paragraphs.tex` |
+| `results/extended_benchmark/aligned/` | Retrieval results (`retrieval_summary.csv`, `retrieval_per_question.csv`, `fairness_per_vehicle.csv`, `no_vehicle_questions.csv`, `out_of_scope_*.csv`) |
 
 ## How the results line up with the report
 
@@ -130,7 +129,6 @@ python -m eval.score_answers                            # automatic metrics
 python -m eval.make_grading_sheet --configs product minilm_strict
 python -m eval.apply_draft_grades fill
 python -m eval.score_answers                            # graded metrics, task 9
-python -m eval.make_appendix_tables
 ```
 
 Generating the 200 answers takes about 25-30 seconds each on a laptop CPU.
